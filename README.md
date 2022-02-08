@@ -6,7 +6,7 @@ My Plan for this Project
 1. Create the model in jupyter notebooks and make the accuracy like 95+
 2. Learn GitHub and get good at it.
 
-**I am on step number 2 right now.**
+**I am on step number 2 right now.** So if this sentence that I am typing shows up on github with my commit then I think I am done with this step.
 
 3. Save the model and make it accessible in GitHub so that I can just use that model to do the predict.
 4. Create a free website, probably hosted by GitHub 
