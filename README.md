@@ -6,8 +6,8 @@ My Plan for this Project
 1. Create the model in jupyter notebooks and make the accuracy like 95+
 2. Learn GitHub and get good at it.
 3. Save the model and make it accessible in GitHub so that I can just use that model to do the predict.
-
 4. Learn html and css and use that to create the website and make it look good. 
+
 **I am on step number 4 right now.** *I am learning HTML, CSS and Javascript from codecademy right now*
 
 5. Learn TensorFlow.js
