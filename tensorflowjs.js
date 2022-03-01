@@ -9,7 +9,7 @@ var base_url = window.location.origin;
 let model;
 (async function(){  
     console.log("model loading...");  
-    model = await tf.loadLayersModel('https://raw.githubusercontent.com/PuravG/EMNIST-Classifier/main/EMNIST%20js%20file/model.json')
+    model = await tf.loadLayersModel('https://raw.githubusercontent.com/PuravG/EMNIST-Classifier/main/EMNIST%20js%20Model/model.json')
     console.log("model loaded..");
 })();
 
