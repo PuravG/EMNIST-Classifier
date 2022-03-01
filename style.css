@@ -9,7 +9,7 @@ font-family: 'Titillium Web', sans-serif;
 
 body {
     box-sizing: border-box;
-    background-image: url(/Images/background.png);
+    background-image: url(Images/background.png);
     background-size: 115%;
     background-position: bottom;; 
     background-attachment: fixed;
@@ -27,7 +27,7 @@ body {
     font-weight: 850;
 }
 #navbar{
-    background-image: url(/Images/texture.png);
+    background-image: url(Images/texture.png);
 }
 .footer{
     position: fixed;
