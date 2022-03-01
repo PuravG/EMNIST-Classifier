@@ -1,0 +1,107 @@
+/*
+font-family: 'Cairo', sans-serif;
+font-family: 'EB Garamond', serif;
+font-family: 'Titillium Web', sans-serif;
+*/
+*{
+    box-sizing: border-box;
+}
+
+body {
+    box-sizing: border-box;
+    background-image: url(/Images/background.png);
+    background-size: 115%;
+    background-position: bottom;; 
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+}
+#heading_text{
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    background-image: linear-gradient(45deg, rgb(16,55,131), rgb(47, 97, 206), rgb(16,55,131));
+    border-radius: 15px;
+    font-family: 'Cairo', sans-serif;
+    font-weight: 850;
+}
+#navbar{
+    background-image: url(/Images/texture.png);
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    top: auto;
+    background-color: rgb(38,38,38);
+    color: white;
+    text-align: center;
+}
+.footer p{
+    padding: 20px;
+    margin: auto;
+}
+
+#centered {
+    position: absolute;
+    top: 128px;
+    left: 0;
+    width: 1440px;
+    height: 128px;
+    color: aliceblue;
+    background-color: rgb(32, 32, 32);
+    text-align: center;
+    line-height: 25px;
+    padding: 24px;
+    font-size: 18px;
+}
+canvas{
+    position: absolute;
+    top: 283px;
+    left: 580px;
+    border: 2px solid red;
+}
+#button_predict{
+    position: absolute;
+    top: 590px;
+    left: 603px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #F2AAAA;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+#button_clear{
+    position: absolute;
+    top: 590px;
+    left: 737px;
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    border: 2px solid #F2AAAA;
+    border-radius: 5px;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+#predictions {
+    position: absolute;
+    top: 335px;
+    left: 1000px;
+    color: white;
+    font-family: 'Titillium Web', sans-serif;
+}
+#prediction_heading{
+    font-size: 50px;
+    line-height: 60px;
+}
+#result{
+    font-size: 60px;
+    line-height: 60px;
+}
+#confidence{
+    font-size: 20px;
+}
